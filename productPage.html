@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products-Details</title>
+    <!--fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/"
+                    ><h4><span>SHOP</span>LANE</h4></a
+                >
+            </div>
+            <div class="nav-links">
+                <a href="/index.html#cloth">Clothing</a>
+                <a href="/index.html#accesseries">Accessories</a>
+            </div>
+            <div id="search-wrapper">
+                
+                <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories"/>
+            </div>
+            <div class="nav-contents">
+                
+                <a href="/checkoutPage.html">   <i class="fa-sharp fa-solid fa-cart-shopping"></i> </a>        
+                           <img src="https://media.licdn.com/dms/image/C5603AQFFJp689Ys8Tw/profile-displayphoto-shrink_800_800/0/1622881564967?e=1677110400&v=beta&t=Kze9stwPm44J9QtCw890BoEKo0HfqUsX6arL_359-G4" alt=""  class="profile">
+                <span class="cart-count">0</span>
+            </div>
+            <div class="hamburger" id="show-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <section class="hamburger-menu" id="hamburger">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="phone-menu" onclick="hide()">
+               
+                <a id="cloth-title" href="/index.html#cloth"  > Clothing</>
+                <a id="acc-title" href="/index.html#accesseries">Accessories</a>
+            </div>
+        </section>
+    </header>
+
+    <section id="product-details">
+      
+    </section>
+
+    <!-- footer -->
+<img id="edyoda-projects-logo" src="https://i.imgur.com/OKAY6Fl.png" alt="EdYoda Projects Logo" />
+<footer>
+    <div>
+        <p class="footer-heading">Online Store</p>
+        <a href="/" class="footer-link">Men Clothing</a>
+        <a href="/" class="footer-link">Women Clothing</a>
+        <a href="/" class="footer-link">Men Accessories</a>
+        <a href="/" class="footer-link">Women Accessories</a>
+    </div>
+    <div>
+        <p class="footer-heading">Helpful Links</p>
+        <a href="/" class="footer-link">Home</a>
+        <a href="/" class="footer-link">About</a>
+        <a href="/" class="footer-link">Contact</a>
+    </div>
+    <div>
+        <p class="footer-heading">Partners</p>
+        <a href="/" class="footer-link">Zara</a>
+        <a href="/" class="footer-link">Pantaloons</a>
+        <a href="/" class="footer-link">Levis</a>
+        <a href="/" class="footer-link">UCB</a>
+        <a href="/" class="footer-link">+ Many More</a>
+    </div>
+    <div>
+        <p class="footer-heading">Address</p>
+        <p href="/" class="footer-link">Building 101</p>
+        <p href="/" class="footer-link">Central Avenue</p>
+        <p href="/" class="footer-link">LA - 902722</p>
+        <p href="/" class="footer-link">United States</p>
+    </div>
+</footer>
+ <!-- jquery -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="product.js"></script>
+</body>
+
+</html>
